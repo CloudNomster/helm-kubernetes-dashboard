@@ -1,0 +1,27 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kubernetes-dashboard
+  description: kubernetes-dashboard
+  annotations:
+    github.com/project-slug: schabo/helm-kubernetes-dashboard
+    backstage.io/techdocs-ref: dir:.
+    argocd/app-name: kubernetes-dashboard
+    backstage.io/kubernetes-label-selector: 'app=kubernetes-dashboard'
+  links:
+    - url: https://github.com/schabo/helm-kubernetes-dashboard
+      title: Cert Manager repository
+      icon: github
+      type: Code
+    - url: https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard
+      title: Kubernetes Dashboard website
+      icon: docs
+      type: docs
+  tags:
+    - dashboard
+
+spec:
+  type: code
+  owner: schabo
+  lifecycle: testing

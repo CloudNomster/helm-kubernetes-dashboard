@@ -1,0 +1,13 @@
+apiVersion: v2
+name: kubernetes-dashboard
+description: A Helm chart for Kubernetes-dashboard
+home: https://github.com/Schabo/helm-kubernetes-dashboard
+type: application
+version: 0.1.0
+deprecated: false
+
+dependencies:
+  - name: kubernetes-dashboard
+    version: v1.15.3
+    repository: https://kubernetes.github.io/dashboard/
+
