@@ -8,6 +8,6 @@ deprecated: false
 
 dependencies:
   - name: kubernetes-dashboard
-    version: v1.15.3
+    version: 7.6.1
     repository: https://kubernetes.github.io/dashboard/
 
