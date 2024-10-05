@@ -74,7 +74,7 @@ kubernetes-dashboard:
       ## Global dashboard settings
       global:
       #  # Cluster name that appears in the browser window title if it is set
-      #  clusterName: ""
+      clusterName: "Homelab"
       #  # Max number of items that can be displayed on each list page
       #  itemsPerPage: 10
       #  # Number of seconds between every auto-refresh of logs

@@ -6,7 +6,6 @@ metadata:
   description: kubernetes-dashboard
   annotations:
     github.com/project-slug: schabo/helm-kubernetes-dashboard
-    backstage.io/techdocs-ref: dir:.
     argocd/app-name: kubernetes-dashboard
     backstage.io/kubernetes-label-selector: 'app=kubernetes-dashboard'
   links:
