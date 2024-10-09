@@ -9,5 +9,5 @@ deprecated: false
 dependencies:
   - name: kubernetes-dashboard
     version: 7.6.1
-    repository: https://kubernetes.github.io/dashboard/
+    repository: git@github.com:CloudNomster/helm-kubernetes-dashboard.git
 
