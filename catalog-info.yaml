@@ -5,11 +5,11 @@ metadata:
   name: kubernetes-dashboard
   description: kubernetes-dashboard
   annotations:
-    github.com/project-slug: schabo/helm-kubernetes-dashboard
+    github.com/project-slug: CloudNomster/helm-kubernetes-dashboard
     argocd/app-name: kubernetes-dashboard
     backstage.io/kubernetes-label-selector: 'app=kubernetes-dashboard'
   links:
-    - url: https://github.com/schabo/helm-kubernetes-dashboard
+    - url: https://github.com/CloudNomster/helm-kubernetes-dashboard
       title: Cert Manager repository
       icon: github
       type: Code
@@ -22,5 +22,5 @@ metadata:
 
 spec:
   type: code
-  owner: schabo
+  owner: group:team-nomster
   lifecycle: testing
