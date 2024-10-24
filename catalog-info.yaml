@@ -21,6 +21,6 @@ metadata:
     - dashboard
 
 spec:
-  type: code
+  type: service
   owner: group:team-nomster
   lifecycle: testing
