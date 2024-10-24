@@ -167,7 +167,8 @@ kubernetes-dashboard:
         emptyDir: {}
     nodeSelector: {}
     # Labels & annotations shared between API related resources
-    labels: {}
+    labels:
+      app: kubernetes-dashboard
     annotations: {}
 
   # API deployment configuration
@@ -222,7 +223,8 @@ kubernetes-dashboard:
         emptyDir: {}
     nodeSelector: {}
     # Labels & annotations shared between API related resources
-    labels: {}
+    labels:
+      app: kubernetes-dashboard
     annotations: {}
 
   # WEB UI deployment configuration
@@ -277,7 +279,8 @@ kubernetes-dashboard:
         emptyDir: {}
     nodeSelector: {}
     # Labels & annotations shared between WEB UI related resources
-    labels: {}
+    labels:
+      app: kubernetes-dashboard
     annotations: {}
 
   ### Metrics Scraper
@@ -336,7 +339,8 @@ kubernetes-dashboard:
         emptyDir: {}
     nodeSelector: {}
     # Labels & annotations shared between WEB UI related resources
-    labels: {}
+    labels:
+      app: kubernetes-dashboard
     annotations: {}
 
   ## Optional Metrics Server sub-chart configuration
